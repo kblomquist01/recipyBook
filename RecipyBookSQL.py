@@ -172,7 +172,7 @@ def add_recipy():
         if(step % 3 == 0):
             ingredients += "\n"
 
-        print("is there more Steps(y/n)? ")
+        print("is there more Ingredients(y/n)? ")
         if(input().lower() == "n"):
             is_more = False
 
